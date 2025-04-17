@@ -1,0 +1,206 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    margin: 0;
+    padding: 20px;
+}
+
+.client-form {
+    margin-bottom: 20px;
+}
+
+.search-section {
+    margin-bottom: 20px;
+    margin-top: 10px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+.search-select, .search-input, .btn {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+.btn {
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+    border: none;
+    margin-left: 20px;
+}
+
+.btn:hover {
+    background-color: #0056b3;
+}
+
+.client-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+.client-table th, .client-table td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+}
+
+.client-table th {
+    background-color: #007bff;
+    color: white;
+    text-align: center;
+}
+
+.form-table {
+    width: 50%;
+    margin: auto;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+.form-table td {
+    padding: 10px;
+}
+
+.input-field {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+.new-client-btn {
+    text-align: center;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    background-color: #007bff;
+    border-radius: 4px;
+}
+
+.nav-links {
+    display: flex;
+    margin-right: 50px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #fff;
+    padding: 0.5rem;
+}
+
+.nav-links a:hover {
+    background-color: #0056b3;
+    border-radius: 4px;
+}
+
+.nav-links h1 {
+    text-decoration: none;
+    color: #fff;
+    padding: 0.5rem;
+}
+
+.nav-links h1:hover {
+    background-color: #0056b3;
+    border-radius: 4px;
+}
+
+h1 {
+    margin: 0;
+    color: #fff;
+}
+
+.h1Style {
+    color: #007bff;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.error {
+    color: red;
+    text-align: center;
+    margin-bottom: 15px;
+    font-size: 1.1rem;
+}
+
+.logowanie {
+    max-width: 400px;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #fff;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+.napisz {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    margin-left: 20px;
+}
+
+.footer {
+    text-align: center;
+    margin-top: 20px;
+    color: #777;
+    font-size: 0.9rem;
+}
+
+.pole {
+    width: 80%;
+    padding: 10px;
+    margin-bottom: 20px;
+    margin-left: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+.error-messages {
+    text-align: center;
+}
+
+.calendar {
+    margin: 20px auto;
+    text-align: center;
+}
+
+.calendar-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+.calendar-table th, .calendar-table td {
+    border: 1px solid #ccc;
+    width: 3%;
+    height: 100px;
+    vertical-align: top;
+}
+
+.calendar-table th {
+    background-color: #007bff;
+    color: white;
+    text-align: center;
+}
+
+.repair-item {
+    background: #f9f9f9;
+    padding: 5px;
+    margin: 3px 0;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 12px;
+}
+
+.indexcss {
+    padding: 15%;
+}
